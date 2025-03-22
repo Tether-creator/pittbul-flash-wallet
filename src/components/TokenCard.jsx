@@ -2,7 +2,7 @@ import React from 'react';
 
 const TokenCard = ({ name, symbol, price, onBuy }) => {
   return (
-    <div className="flex justify-between items-center bg-gray-900 hover:bg-gray-800 p-4 rounded-lg shadow-md mb-4">
+    <div className="flex justify-between items-center bg-gray-900 hover:bg-gray-800 p-4 rounded-lg shadow-md w-full">
       <div>
         <h2 className="text-white font-bold">{name}</h2>
         <p className="text-sm text-gray-400">{symbol}</p>
