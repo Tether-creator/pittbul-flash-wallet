@@ -8,19 +8,21 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">Pittbul Flash Wallet</h1>
+    <div className="min-h-screen w-full bg-black text-white flex justify-center items-start p-6">
+      <div className="w-full max-w-5xl">
+        <h1 className="text-4xl font-bold text-center mb-10">Pittbul Flash Wallet</h1>
 
-      <div className="w-full max-w-4xl grid gap-4 grid-cols-1 sm:grid-cols-2">
-        {tokens.map((token) => (
-          <TokenCard
-            key={token.id}
-            name={token.name}
-            symbol={token.symbol}
-            price={token.price}
-            onBuy={() => handleBuy(token.id)}
-          />
-        ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {tokens.map((token) => (
+            <TokenCard
+              key={token.id}
+              name={token.name}
+              symbol={token.symbol}
+              price={token.price}
+              onBuy={() => handleBuy(token.id)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
