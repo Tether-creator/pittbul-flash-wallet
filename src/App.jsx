@@ -4,13 +4,16 @@ import { tokens } from './data/tokens';
 
 function App() {
   const handleBuy = (tokenId) => {
-    alert(`Buy triggered for: ${tokenId}`);
+    alert(`Buy triggered for token: ${tokenId}`);
+    // Later: Connect this to backend or smart contract purchase logic
   };
 
   return (
     <div className="min-h-screen w-full bg-black text-white flex justify-center items-start p-6">
-      <div className="w-full max-w-5xl">
-        <h1 className="text-4xl font-bold text-center mb-10">Pittbul Flash Wallet</h1>
+      <div className="w-full max-w-5xl mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-10">
+          Pittbul Flash Wallet
+        </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {tokens.map((token) => (
