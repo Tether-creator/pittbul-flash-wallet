@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between bg-gray-900 px-6 py-4 shadow-md">
       <div className="flex items-center gap-3">
         <img
-          src="/logo.png"
+          src="/"pittbullogo.png"
           alt="Pittbul Logo"
           className="h-10 w-10 rounded-full border-2 border-red-600"
         />
