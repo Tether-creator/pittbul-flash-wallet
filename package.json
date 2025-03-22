@@ -3,6 +3,6 @@
   "react-dom": "^18.2.0",
   "react-router-dom": "^6.21.0",
   "ethers": "^6.8.1",
-  "web3modal": "^1.9.12",          // ✅ THIS ONE WORKS
-  "wagmi": "0.12.0"                 // ✅ Compatible version
+  "web3modal": "^1.9.12",         
+  "wagmi": "0.12.0"                
 }
